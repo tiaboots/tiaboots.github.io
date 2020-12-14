@@ -25,7 +25,7 @@ This video was created to review my original projects, what they contained, why 
 - This artifact was improved by changing the texture and rotation of the pyramid. I did meet the course objectives that I originally planned to meet with this enhancement. The biggest challenge I faced while enhancing this project was having to relearn the computer graphics and how it works and the different variables like float, buffer, shader, etc. I had to relearn a little bit in order to try and pick up back from where I started and create something better. I would not have had to do that if I was in continuous practice with this kind of programing.
 
 # Data Structures and Algorithms Category
-
+[Data Structures Artifact](https://youtu.be/OyiSguHZ8mA)<br />
 
 
 
