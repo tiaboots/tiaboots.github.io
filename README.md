@@ -2,7 +2,18 @@ tiaboots.github.io
 
 # Hello! Welcome to my ePortfolio!
 
-My name is Tia Felice and this ePortfolio contains all of the elements of my SNHU Final Project Capstone. These elements highlight all the fundamentals of my Computer Science education at Southern New Hampshire University and 
+My name is Tia Felice and this ePortfolio contains all of the elements of my SNHU Final Project Capstone. These elements highlight some of the fundamentals of my Computer Science education at Southern New Hampshire University over the past 2 1/2 years.
+
+
+# Professional Self-Assessment 
+- Throughout the degree program, I took away a lot of important skills that have helped me develop my strengths in computer science. These artifacts are from different courses I took throughout the program and with the enhancements, shows how far I’ve come since I first started coding. I believe that each course helped me learn more about tech and information security, which happens to be the field I’m in now. I believe that having this degree and taking all of the information I learned helped me become employable with the company I work for now, and will help me become more employable in the future, as I plan to take what I’ve learned and apply it into a master’s degree program to further educate myself and feed my passion for tech.
+- When working on projects, I took an entire course on collaborating in a team environment where we used Bitbucket in order to use git and push commits to this GitHub similar environment. We learned in this course and others about communicating cybersecurity needs to stakeholders and created a portfolio of a business’ cybersecurity needs in an information security course. 
+
+- Artifact one is a software engineering focus that showcases my ability to take a graphic design/visualization and alter its features including color, texture, and orientation in order to enhance the project as a whole. This also shows my experience in Eclipse IDE.
+- Artifact two is data structures and algorithms project that I created from scratch (so no previous enhancements/originals) What I created is an array that stores variables and outputs them in a “story” that includes the input variables. This project fits into my ePortfolio by demonstrating my ability to use data structures and algorithms, an important part of programming.
+
+- The final artifact is a database that describes myself and my family members and information about them. This was created to demonstrate my ability to create databases, add, subtract, and modify different aspects of the database.
+
 
 # Code Review
 [Code Review](https://youtu.be/OyiSguHZ8mA)<br />
