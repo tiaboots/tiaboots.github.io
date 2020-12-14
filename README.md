@@ -4,7 +4,9 @@ tiaboots.github.io
 
 My name is Tia Felice and this ePortfolio contains all of the elements of my SNHU Final Project Capstone. These elements highlight all the fundamentals of my Computer Science education at Southern New Hampshire University and 
 
-
+# Code Review
+[Code Review](https://youtu.be/OyiSguHZ8mA)<br />
+This video was created to review my original projects what they contained, why I chose them to enhance, and what enhancements I planned to make on them.
 
 # Software Engineering Category
 [Software Engineering Enhancement](https://github.com/tiaboots/tiaboots.github.io/commit/126926be1f2ce48638db2fdd060cc15f55f831cb)<br />
