@@ -1,0 +1,73 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+    // Enter first name and your favorite color and stores them in array
+    char namequestion[] = "What is your first name? ";
+    string colorquestion = "What is your favorite color? ";
+    char nameanswer [80];
+    string coloranswer;
+
+    // Prints the array elements of name and studying
+    cout << namequestion;
+    cin >> nameanswer;
+    cout << colorquestion;
+    cin >> coloranswer;
+    cout << "\n";
+    cout << "Welcome to the madhouse! " << nameanswer;
+    cout << "! Your favorite color is " << coloranswer;
+
+    int numone, numtwo, numthree, numfour, numfive, sumnum;
+
+    cout << "Enter 5 of your favorite numbers: ";
+    cin >> numone >> numtwo >> numthree >> numfour >> numfive;
+
+    // Sums the favorite numbers entered by user
+    sumnum = numone + numtwo + numthree + numfour + numfive;
+
+    // Prints the sum of numbers
+    cout << "The sum of your favorite numbers is: \n" << 
+    numone << " + " << numtwo << " + " << numthree << " + " << numfour << " + " << numfive << " = " << sumnum << "\n\n";
+
+
+    //Start the mad lib
+    cout << "And now for a short Mad Lib of your choosing!\n\n";
+
+    //Ask user to enter nouns and adjectives to store in array
+    char adjqone[] = "Please enter an adjective: ";
+    char adjqtwo[] = "And now for one more adjective: ";
+    char nounqone[] = "Now please enter a noun: ";
+    char nounqtwo[] = "Just one more noun: ";
+    char adjaone[50];
+    char adjatwo[50];
+    char nounaone[50];
+    char nounatwo[50];
+
+
+    // Prints the array elements of adjectives and nouns
+    cout << adjqone;
+    cin >> adjaone;
+    cout << adjqtwo;
+    cin >> adjatwo;
+    cout << nounqone;
+    cin >> nounaone;
+    cout << nounqtwo;
+    cin >> nounatwo;
+
+    cout << "\n\n";
+
+    // Prints the mad lib with the users answers
+    cout << "There once was a student named " << nameanswer << " finishing their Computer Science Degree at SNHU. \n";
+    cout << "Their favorite color is " << coloranswer << " and their new\n";
+    cout << "favorite number is " << sumnum << ".  " << nameanswer << " \n";
+    cout << "is looking at the world with " << adjaone << " and can't wait to share her degree success with \n";
+    cout << nounaone << ".  They were so " << adjatwo << " to be finished with college! \n";
+    cout << "Next, they are going to travel the world with " << nounatwo << " to learn everything about the world!\n\n";
+    cout << "End.";
+
+
+    return 0;
+}
