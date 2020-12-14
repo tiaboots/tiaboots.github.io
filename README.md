@@ -27,6 +27,7 @@ This video was created to review my original projects, what they contained, why 
 # Data Structures and Algorithms Category
 [Data Structures Artifact](https://youtu.be/OyiSguHZ8mA)<br />
 
+-This artifact asks for specific inputs and then stores them in array and recalls it in a "story" that uses the different variables as fun additives into the story. I created this because my computer that had my original data structures and algorithms example had died and this was a simple way to incorporate something that hits all the marks and shows that I understand one of the fundamentals of data structures and algorithms, arrays. The challenge that I faced with this artifact was having to build it from scratch and not enhance from a previous assignment so I had to be creative and come up with something that showcased my understanding and mastering of the course. 
 
 
 # Databases Category
