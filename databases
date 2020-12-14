@@ -1,0 +1,191 @@
+
+
+CREATE TABLE Family (
+	id INT PRIMARY KEY NOT NULL,
+	FirstName varchar(255) NOT NULL,
+	LastName varchar(255) NOT NULL,
+	City varchar(255) NOT NULL,
+	UsState varchar(2) NOT NULL
+);
+
+
+
+INSERT INTO Family (id, FirstName, LastName, City, UsState)
+VALUES (1, 'Tia', 'Felice', 'Chicago', 'IL');
+
+INSERT INTO Family (id, FirstName, LastName, City, UsState)
+VALUES (2, 'Rina', 'Escasa', 'Indianapolis', 'IN');
+
+INSERT INTO Family (id, FirstName, LastName, City, UsState)
+VALUES (3, 'Christian', 'Escasa', 'Detroit', 'MI');
+
+INSERT INTO Family (id, FirstName, LastName, City, UsState)
+VALUES (4, 'Taeko', 'Escasa', 'Fishers', 'IN');
+
+INSERT INTO Family (id, FirstName, LastName, City, UsState)
+VALUES (5, 'Edward', 'Escasa', 'Indianapolis', 'IN');
+
+
+ALTER TABLE Family
+ADD Relationship VARCHAR(255);
+
+ALTER TABLE Family
+ADD Age INT;
+
+UPDATE Family
+SET Relationship = 'Me'
+WHERE FirstName = 'Tia';
+
+UPDATE Family
+SET Relationship = 'Sister'
+WHERE FirstName = 'Rina';
+
+UPDATE Family
+SET Relationship = 'Brother'
+WHERE FirstName = 'Christian';
+
+UPDATE Family
+SET Relationship = 'Mother'
+WHERE FirstName = 'Taeko';
+
+UPDATE Family
+SET Relationship = 'Father'
+WHERE FirstName = 'Edward';
+
+
+UPDATE Family
+SET Age = 24
+WHERE FirstName = 'Tia';
+
+UPDATE Family
+SET Age = 21
+WHERE FirstName = 'Rina';
+
+UPDATE Family
+SET Age = 16
+WHERE FirstName = 'Christian';
+
+UPDATE Family
+SET Age = 55
+WHERE FirstName = 'Taeko';
+
+UPDATE Family
+SET Age = 55
+WHERE FirstName = 'Edward';
+
+
+CREATE TABLE ExtendedFamily (
+	id INT PRIMARY KEY NOT NULL,
+	FirstName varchar(255) NOT NULL,
+	LastName varchar(255) NOT NULL,
+	City varchar(255) NOT NULL,
+	UsState varchar(2) NOT NULL,
+	Relationship varchar(255) NOT NULL,
+	Age INT
+);
+
+
+
+INSERT INTO ExtendedFamily (id, FirstName, LastName, City, UsState, Relationship, Age)
+VALUES (6, 'Kajal', 'Boyina', 'Chicago', 'IL', 'Cousin', 25);
+
+INSERT INTO ExtendedFamily (id, FirstName, LastName, City, UsState, Relationship, Age)
+VALUES (7, 'Kareena', 'Boyina', 'Detroit', 'MI', 'Cousin', 19);
+
+INSERT INTO ExtendedFamily (id, FirstName, LastName, City, UsState, Relationship, Age)
+VALUES (8, 'Joseph', 'Zavala', 'Chicago', 'IL', 'Fiancee', 27);
+
+INSERT INTO ExtendedFamily (id, FirstName, LastName, City, UsState, Relationship, Age)
+VALUES (9, 'Evelyn', 'Robles', 'Chicago', 'IL', 'Sister in Law', 30);
+
+
+
+ALTER TABLE Family
+ADD Parents VARCHAR(255);
+
+ALTER TABLE ExtendedFamily
+ADD Parents VARCHAR(255);
+
+
+
+UPDATE Family
+SET Parents = 'Taeko & Edward'
+WHERE FirstName = 'Tia';
+
+UPDATE Family
+SET Parents = 'Taeko & Edward'
+WHERE FirstName = 'Rina';
+
+UPDATE Family
+SET Parents = 'Taeko & Edward'
+WHERE FirstName = 'Christian';
+
+UPDATE Family
+SET Parents = 'Annie & Santos'
+WHERE FirstName = 'Edward';
+
+UPDATE Family
+SET Parents = 'Obachan & Ojiichan'
+WHERE FirstName = 'Taeko';
+
+
+UPDATE ExtendedFamily
+SET Parents = 'Monica & Soji'
+WHERE FirstName = 'Kajal';
+
+UPDATE ExtendedFamily
+SET Parents = 'Monica & Soji'
+WHERE FirstName = 'Kareena';
+
+UPDATE ExtendedFamily
+SET Parents = 'Carmen & Ricardo'
+WHERE FirstName = 'Joseph';
+
+UPDATE ExtendedFamily
+SET Parents = 'Carmen & Ricardo'
+WHERE FirstName = 'Evelyn';
+
+
+
+CREATE TABLE Kids (
+	id INT PRIMARY KEY NOT NULL,
+	firstName VARCHAR(255) NOT NULL,
+	numKids INT NOT NULL
+);
+
+
+
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (1, 'Tia', 1);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (2, 'Rina', 0);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (3, 'Christian', 0);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (4, 'Taeko', 3);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (5, 'Edward', 3);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (6, 'Kajal', 0);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (7, 'Kareena', 0);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (8, 'Joseph', 1);
+
+/*Insert values into Kids table*/
+INSERT INTO Kids (id, firstName, numKids)
+VALUES (9, 'Evelyn', 2);
